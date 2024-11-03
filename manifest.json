@@ -1,0 +1,10 @@
+{
+	"id": "datacore-addon-autocomplete",
+	"name": "Datacore Autocompletion Addon",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "Provides autocompletion for the Datacore plugin (since typescript is too damn large)",
+	"author": "Tablet!",
+	"authorUrl": "https://www.instagram.com/i.am.the.tablet",
+	"isDesktopOnly": false
+}

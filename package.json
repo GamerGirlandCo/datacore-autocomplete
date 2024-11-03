@@ -1,0 +1,35 @@
+{
+	"name": "obsidian-sample-plugin",
+	"version": "1.0.0",
+	"description": "This is a sample plugin for Obsidian (https://obsidian.md)",
+	"main": "main.js",
+	"scripts": {
+		"dev": "node esbuild.config.mjs",
+		"build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
+		"version": "node version-bump.mjs && git add manifest.json versions.json"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "MIT",
+	"devDependencies": {
+		"@codemirror/state": "^6.4.1",
+		"@types/node": "^16.11.6",
+		"@typescript-eslint/eslint-plugin": "5.29.0",
+		"@typescript-eslint/parser": "5.29.0",
+		"builtin-modules": "3.3.0",
+		"esbuild": "^0.24.0",
+		"esbuild-plugin-inline-worker": "https://github.com/mitschabaude/esbuild-plugin-inline-worker",
+		"obsidian": "latest",
+		"prettier": "^3.3.3",
+		"tslib": "2.4.0",
+		"typescript": "latest"
+	},
+	"packageManager": "yarn@1.22.19+sha1.4ba7fc5c6e704fce2066ecbfb0b0d8976fe62447",
+	"dependencies": {
+		"@codemirror/autocomplete": "^6.18.2",
+		"@typescript/vfs": "^1.6.0",
+		"@valtown/codemirror-ts": "^2.2.0",
+		"comlink": "^4.4.1",
+		"preact": "^10.24.3"
+	}
+}
